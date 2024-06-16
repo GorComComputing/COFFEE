@@ -1,6 +1,6 @@
 # Робот, заваривающий чай на ATmega2560
 
-![COFFEE-2.jpg](COFFEE-2.jpg)
+![img/COFFEE-2.jpg](img/COFFEE-2.jpg)
 
 В основе робота положен микроконтроллер ATmega2560.
 
@@ -17,6 +17,11 @@
 
 Робот подключается по UART к Wi-Fi модулю ESP01S и через него подключается к локальной сети.
 
+```
+# Для автоматческого добавление на GitHub
+$ python make.py git "Комментарий"
+```
+
 - Написан на языке C++ Arduino
 
 Статус проекта: Разрабатывается.
@@ -25,4 +30,4 @@
 Copyright (c) 2024 Evgeny Goryachev  
 Gor.Com 
 
-![COFFEE-1.jpg](COFFEE-1.jpg)
+![img/COFFEE-1.jpg](img/COFFEE-1.jpg)
